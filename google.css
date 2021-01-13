@@ -1,0 +1,105 @@
+*{
+margin: 0;
+padding: 0;}
+
+.header{
+    margin-top: 30px;
+    float: right;
+    margin-right: 15px;
+}
+
+.header ul li a{
+    color: #56555e;
+    text-decoration: none;
+}
+
+.header ul li a:hover,
+.footer ul li a:hover
+{
+text-decoration: underline;
+}
+
+.header ul li {
+display: inline-block;
+margin-left: 15px;
+}
+
+.header .signin{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+
+.container{
+    width: 400px;
+    margin: 250px auto;
+    text-align: center;
+    
+}
+
+.container .img{
+    margin-left: 27px;
+}
+
+.search{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.container .btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 7px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 3px;
+   
+}
+
+.container .btn:hover{
+
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.footer {
+position: absolute;
+bottom: 0;
+background-color: rgb(240, 240, 240);
+border-top:1px solid #ccc;
+width: 100%;
+padding-top: 15px;
+}
+
+.footer .setting{
+margin-right: 30px;
+}
+.footer ul li {
+    display: inline-block;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #56555e;
+
+}
+
+.right{
+float: right;
+}
+.left{
+float: left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+/* asdasd */
